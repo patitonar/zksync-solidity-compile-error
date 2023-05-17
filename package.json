@@ -1,0 +1,15 @@
+{
+  "name": "zksync-solidity-compile-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx hardhat compile"
+  },
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync-solc": "^0.3.17",
+    "hardhat": "^2.14.0",
+    "typescript": "^5.0.4",
+    "ts-node": "^10.9.1"
+  }
+}
